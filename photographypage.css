@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_box {
+    background: url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.btn_one i {
+    font-size: 30px;
+    color: white;
+    font-weight: 300px;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.sidebar_menu {
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    position: fixed;
+    left: -300px;
+transition: all 0.4s linear;
+}
+
+.sidebar_menu .logo {
+width: 100%;
+box-shadow: 0 2px 3px rgba(255, 255, 255, 0.5);
+position: absolute;
+line-height: 60px;
+height: 60px;
+}
+
+.sidebar_menu .logo a {
+    position: absolute;
+    left: 60px;
+    color: white;
+    text-decoration: none;
+    font-weight: 50px;
+    font-size: 20px;
+}
+
+.menu {
+    color: white;
+    position: absolute;
+    top: 80px;
+    width: 300px;
+}
+
+.btn_two i {
+    color: grey;
+    font-size: 25px;
+    font-weight: 300px;
+    position: absolute;
+    left: 270px;
+    line-height: 60px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+
+.sidebar_menu .menu li {
+    margin: 5px;
+    padding: 14px 20px;
+}
+
+.sidebar_menu .menu li i,a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar_menu .menu li i {
+    padding-right: 8px;
+}
+
+.sidebar_menu .social_media {
+position: absolute;
+left: 25%;
+bottom: 50px;
+}
+
+.sidebar_menu .social_media i {
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;
+}
+
+#check {
+    display: none;
+}
+
+.sidebar_menu .menu li:hover {
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+.btn_two i:hover {
+font-size: 30px;
+}
+
+.btn_one i:hover {
+    font-size: 35px;
+}
+
+.sidebar_menu .social_media i:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+ 
+#check:checked ~ .sidebar_menu {
+left:0px;
+}
+
+#check:checked ~ .btn_one i {
+    opacity: 0;
+}
+
+#check:checked ~ .sidebar_menu .btn_two i {
+    opacity: 1;
+}
+
+#searchbar {
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+    position: fixed;
+    left: 50%;
+    line-height: 40px;
+    width: 500px;
+    margin-top: 20px;
+    text-align: center;
+    /* cursor: text;
+    box-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+    border: 1px solid grey; */
+}
+
+#icon i {
+    position: fixed;
+    left: 52%;
+    margin-top: 30px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+#icon i:hover {
+    transform: scale(1.2);
+}
+
+#icon input {
+    position: fixed;
+    left: 50%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    line-height: 40px;
+    width: 500px;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
